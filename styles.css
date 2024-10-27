@@ -1,0 +1,97 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+  background: url() ;
+  background-repeat: no-repeat;
+  background-size: 100vh 100vh;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+#level {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9FGLZzzos3J4tZJ29I6MhCLiLEguARq5F4w&s");
+
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+}
+
+.green {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVc4xr29AV0z6IGRXJqkgREJ1fNpxHuZc3nA&s");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+}
+
+.blue {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWkeaOMmMMqkmBOCMTf1YuzH7gDgUgkOOMdA&s");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+}
+
+.yellow {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc-_o1WInLGy18V-18bkwGeytxy5S5H-E6kg&s");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+@media only screen and (max-width: 767px) {
+  body {
+    
+    background-image: url("https://w0.peakpx.com/wallpaper/970/828/HD-wallpaper-shenlong-dragon-dragon-ball-dragon-ball-super-goku-vegeta-thumbnail.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow:scroll;
+
+  }
+  #myVideo {
+    
+    display: none;
+  }
+  .container {
+  
+    display: inline;
+   }
+   
+.btn{
+ 
+margin: 5px;
+  
+  
+}
+}
